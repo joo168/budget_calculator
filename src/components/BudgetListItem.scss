@@ -1,0 +1,19 @@
+.detail_list {
+  margin: 5px;
+  padding: 5px;
+}
+.contents {
+  width: 90%;
+  display: flex;
+}
+.text {
+  width: 10%;
+  margin-left: 5%;
+}
+.cost {
+  width: 75%;
+}
+.edit,
+.delete {
+  width: 5%;
+}

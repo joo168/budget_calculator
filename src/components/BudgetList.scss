@@ -1,0 +1,56 @@
+.cost_container {
+  display: flex;
+  justify-content: center;
+}
+.cost_box {
+  border: 1px solid palevioletred;
+  margin: 20px;
+  padding: 0.5rem;
+  width: 80%;
+}
+
+.detail {
+  & + & {
+    border-top: 1px solid palevioletred;
+  }
+  // &:nth-child(even) {
+  //   background-color: #868e96;
+  // }
+}
+.total_cost {
+  margin-right: 1%;
+  padding-left: 15%;
+}
+
+.detail_list,
+.total {
+  display: flex;
+  align-items: center;
+}
+.list {
+  // -----> text로!!
+  width: 30%;
+}
+.cost {
+  width: 50%;
+}
+.list,
+.cost,
+.total_list,
+.total_cost {
+  text-align: center;
+}
+h2 {
+  border-bottom: 1px solid palevioletred;
+}
+.total {
+  border-top: 1px solid palevioletred;
+}
+.total_list {
+  width: 30%;
+  font-size: 20px;
+  font-weight: 550;
+}
+.total_cost {
+  width: 50%;
+}
